@@ -1,0 +1,14 @@
+# Datos de la ENEIC (demasiado grandes para GitHub; se descargan del INE)
+data/
+*.zip
+*.xlsx
+
+# Modelos entrenados (se regeneran al ejecutar el notebook)
+modelos/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+spark-warehouse/
+metastore_db/
+derby.log
